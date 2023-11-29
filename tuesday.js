@@ -31,7 +31,7 @@ render()
 
 
 src(s2)
-	.repeat(arm,arr3)
+	.repeat(arm, arr3)
 	.diff(src(s2)
 		.scale(0.9))
 	.out(o2)
