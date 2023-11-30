@@ -23,12 +23,12 @@ src(s0)
 render(o1)
 
 src(o0)
-	.pixelate(100, 100)
+	.pixelate(200, 200)
 	.out(o2)
 render(o2)
 
 src(o0)
-	.blend(o2, f / 100)
+	.blend(o2, f)
 	.out(o3)
 
 render()
